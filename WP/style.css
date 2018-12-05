@@ -1,0 +1,238 @@
+.top-area {
+    background: #42f4e8;
+    padding: 10px 0;
+}
+
+.top-area ul li i {
+    color: #a341f4;
+    margin-right: 5px;
+}
+
+.top-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.top-area ul li {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.social-icon {
+    text-align: right;
+}
+
+.social-icon ul li {
+    margin-left: 95px;
+}
+
+
+
+.logo img {
+    
+	height: 35px;
+	width: 75%;
+	margin-top: 17px;
+}
+
+.main-menu ul#nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.main-menu ul#nav li {
+    display: inline-block;
+}
+
+.main-menu ul#nav li a {
+    color: #333;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 25px 15px;
+    display: block;
+    text-decoration-style: solid;
+}
+
+
+
+
+
+.welcome-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.welcome-area h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+/*======================
+Position relative korte hobe
+=======================*/
+
+.slider-area{
+    position: relative;
+}
+
+
+/*======================
+Owl nav
+=======================*/
+
+.slider-area .owl-nav .owl-prev,
+.slider-area .owl-nav .owl-next {
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 37px;
+    top: 50%;
+    margin-top: -20px;
+    right: 0;
+    font-size: 30px;
+    /*======================
+BACKGROUND COLOR
+=======================*/
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    -webkit-transition: all 0.4s;
+    opacity: 0;
+    transition: all 0.4s;
+    /*======================
+ARROW BORDER
+=======================*/
+    border: 2px solid #fff !important;
+}
+/*======================
+slider-area .owl-nav .owl-prev= CLASS SAME HOTE HOBE
+=======================*/
+.slider-area .owl-nav .owl-prev {
+    left: 0;
+}
+
+.slider-area:hover .owl-nav .owl-prev,
+.slider-area:hover .owl-nav .owl-next {
+    opacity: 1;
+}
+
+.slider-area .owl-nav .owl-prev:hover,
+.slider-area .owl-nav .owl-next:hover {
+    background: #1F406D;
+    color: #fff;
+}
+/*team-item*/
+.team-area h1.text-center {
+    margin-bottom: 50px;
+}
+.team-item .photo{
+    margin-bottom: 30px;
+}
+.team-item {
+    text-align: center;
+    border: 2px solid #ddd;
+	padding: 5px;
+}
+
+    /*======================
+man nav
+=======================*/
+ .team-area .owl-nav .owl-prev,
+.team-area .owl-nav .owl-next {
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 37px;
+    top: 50%;
+    margin-top: -20px;
+    right: 0;
+    font-size: 30px;
+     /*======================
+background color
+=======================*/
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    -webkit-transition: all 0.4s;
+    opacity: 0;
+    transition: all 0.4s;
+    /*======================
+ARROW BORDER
+=======================*/
+    border: 2px solid #333 !important;
+}
+/*======================
+slider-area .owl-nav .owl-prev= CLASS SAME HOTE HOBE
+=======================*/
+.team-area .owl-nav .owl-prev {
+    left: 0;
+}
+
+.team-area:hover .owl-nav .owl-prev,
+.team-area:hover .owl-nav .owl-next {
+    opacity: 1;
+}
+
+.team-area .owl-nav .owl-prev:hover,
+.team-area .owl-nav .owl-next:hover {
+    background: #1F406D;
+    color: #fff;
+}
+
+.client-area{
+    margin-top: 75px;
+}
+
+.all-clients{
+   margin-top: 40px; 
+}
+
+/*
+Theme Name: Cool theme.
+Theme URI: google.com
+Description: A cool theme.
+Version: 1.0
+Author: Porag
+Author URI: google.com
+*/
+
+
+
+.footer-area{
+    margin-top: 40px;
+    background: #64DB7E;
+    padding-bottom: 60px;
+    
+}
+.footer-b-area{
+    background: #04FB67;
+    padding-bottom: 5px;
+    
+}
+.other-links{
+    padding-top: 15px;
+}
+
+.opening-hours{
+    padding-top: 15px;
+}
+
+.g-map{
+    padding-top: 19px;
+}
+
+.other-links ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.other-links ul li{}
+.other-links ul li a{
+    color: brown;
+    text-decoration-style: solid;
+}
+
